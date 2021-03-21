@@ -1,0 +1,167 @@
+body
+{
+    background-color: black;
+}
+
+h1
+{
+    text-align: center;
+    color: white;
+    font-size: 26px;
+}
+
+table.first
+{
+    width: 100%;
+}
+
+td.primary 
+{
+    border: 1px solid ghostwhite;
+    width: 5.556%;
+}
+
+td.hidden, td.none
+{
+    border: none;
+}
+
+td
+{
+    line-height: 18px;
+    text-align: center;
+}
+
+td.info
+{
+    line-height: 7px;
+    font-size: 8.25pt;
+    color: white;
+}
+
+b
+{
+    font-size: 17px;
+    font-family: Helvetica, sans-serif;
+    color: white;
+}
+
+td.ReactiveNonmetals
+{
+    border: 1px solid ghostwhite;
+    text-align: center;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    background-color: crimson;
+    color: white;
+}
+
+td.NobleGases
+{
+    border: 1px solid ghostwhite;
+    text-align: center;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    background-color: orange;
+    color: white;
+}
+
+td.AlkaliMetals
+{
+    border: 1px solid ghostwhite;
+    text-align: center;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    background-color: goldenrod;
+    color: white;
+}
+
+td.AlkalineEarthMetals
+{
+    border: 1px solid ghostwhite;
+    text-align: center;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    background-color: yellowgreen;
+    color: white;
+}
+
+td.TransitionMetals
+{
+    border: 1px solid ghostwhite;
+    text-align: center;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    background-color: seagreen;
+    color: white;
+}
+
+td.Metalloids
+{
+    border: 1px solid ghostwhite;
+    text-align: center;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    background-color: mediumslateblue;
+    color: white;
+}
+
+td.PostTransitionMetals
+{
+    border: 1px solid ghostwhite;
+    text-align: center;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    background-color: steelblue;
+    color: white;
+}
+
+td.Lanthanoids
+{
+    border: 1px solid ghostwhite;
+    text-align: center;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    background-color: palevioletred;
+    color: white;
+}
+
+td.Actinoids
+{
+    border: 1px solid ghostwhite;
+    text-align: center;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    background-color: brown;
+    color: white;
+}
+
+td.UnknownChemicalProperties
+{
+    border: 1px solid ghostwhite;
+    text-align: center;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    background-color: lightslategray;
+    color: white;
+}
