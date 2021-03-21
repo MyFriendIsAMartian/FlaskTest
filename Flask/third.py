@@ -18,15 +18,15 @@ def file1selectedlines():
         a=int(request.args.get("a"))
         z=int(request.args.get("z"))
         if a<0 or z<0:
-            raise Exception("received a negative number for the range")
+            raise Exception("Received a negative number for the range. Please input a positive number.")
         if z<a:
-            raise Exception("final value is less than initial value; range must go from a lesser number to a greater number")
+            raise Exception("Final value (z) is less than initial value (a); range must go from a lesser number to a greater number (a-z).")
         with open("./templates/file1.html", "r") as f:
             content = f.readlines()
         content=content[a+1:z+2]
         return ''.join(content)
     except(Exception) as e:
-        return str("error has occured; please input a number for the range - ") + str(e)
+        return str("An error has occured; please input a number for the range - ") + str(e)
 
 @app.route("/file2")
 def file2():
@@ -38,15 +38,15 @@ def file2selectedlines():
         a=int(request.args.get("a"))
         z=int(request.args.get("z"))
         if a<0 or z<0:
-            raise Exception("received a negative number for the range")
+            raise Exception("Received a negative number for the range. Please input a positive number.")
         if z<a:
-            raise Exception("final value is less than initial value; range must go from a lesser number to a greater number")
+            raise Exception("Final value (z) is less than initial value (a); range must go from a lesser number to a greater number (a-z).")
         with open("./templates/file2.html", "r") as f2:
             content = f2.readlines()
         content=content[a+1:z+2]
         return ''.join(content)
     except(Exception) as e:
-        return str("error has occured; please input a number for the range - ") + str(e)
+        return str("An error has occured; please input a number for the range - ") + str(e)
 
 @app.route("/file3")
 def file3():
@@ -58,15 +58,15 @@ def file3selectedlines():
         a=int(request.args.get("a"))
         z=int(request.args.get("z"))
         if a<0 or z<0:
-            raise Exception("received a negative number for the range")
+            raise Exception("Received a negative number for the range. Please input a positive number.")
         if z<a:
-            raise Exception("final value is less than initial value; range must go from a lesser number to a greater number")
+            raise Exception("Final value (z) is less than initial value (a); range must go from a lesser number to a greater number (a-z).")
         with open("./templates/file3.html", "r") as f3:
             content = f3.readlines()
         content=content[a+1:z+2]
         return ''.join(content)
     except(Exception) as e:
-        return str("error has occured; please input a number for the range - ") + str(e)
+        return str("An error has occured; please input a number for the range - ") + str(e)
 
 @app.route("/file4")
 def file4():
@@ -78,12 +78,12 @@ def file4selectedlines():
         a=int(request.args.get("a"))
         z=int(request.args.get("z"))
         if a<0 or z<0:
-            raise Exception("received a negative number for the range")
+            raise Exception("Received a negative number for the range. Please input a positive number.")
         if z<a:
-            raise Exception("final value is less than initial value; range must go from a lesser number to a greater number")
+            raise Exception("Final value (z) is less than initial value (a); range must go from a lesser number to a greater number (a-z).")
         with open("./templates/file4.html", "r") as f4:
             content = f4.readlines()
         content=content[a:z+1]
         return ''.join(content)
     except(Exception) as e:
-        return str("error has occured; please input a number for the range - ") + str(e)
+        return str("An error has occured; please input a number for the range - ") + str(e)
